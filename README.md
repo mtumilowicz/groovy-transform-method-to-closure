@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/groovy-transform-method-to-closure.svg?branch=master)](https://travis-ci.com/mtumilowicz/groovy-transform-method-to-closure)
+
 # groovy-transform-method-to-closure
 Method to closure transformation.
 
@@ -34,10 +36,12 @@ We provide examples in `Transformation` class for mentioned above features:
     then:
     list == [10, 9, 8, 5, 3, 2, 1]    
     ```
-* strategy pattern - injecting + currying
+* strategy pattern - injecting + currying; please refer 
+my other github project for more info about currying: 
+https://github.com/mtumilowicz/groovy-closure-currying
     ```
     given:
-    def joinWithComma = String.&join.curry(",")
+    def joinWithComma = String.&join.curry(",") // String join(CharSequence delimiter, CharSequence... elements)
     
     def list = ["a", "b", "c"]
     
