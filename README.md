@@ -1,7 +1,8 @@
 [![Build Status](https://travis-ci.com/mtumilowicz/groovy-transform-method-to-closure.svg?branch=master)](https://travis-ci.com/mtumilowicz/groovy-transform-method-to-closure)
 
 # groovy-transform-method-to-closure
-Method to closure transformation.
+The main goal of this project is to show how to transform
+method to closure.
 
 _Reference_: http://docs.groovy-lang.org/latest/html/documentation/#method-pointer-operator
 
